@@ -174,7 +174,7 @@ select {
     z-index: 0;
 }
 
-form button {
+form button.btn {
     padding: 1.2rem 3.2rem;
 }
 
@@ -199,6 +199,10 @@ section.top .view {
 
 section.cards {
     margin-top: 4rem;
+
+    display: grid;
+    gap: 3.2rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
